@@ -5,7 +5,7 @@ using System.Text;
 
 namespace LogAn
 {
-    class FakeExtensionManager : IExtensionManager
+    public class FakeExtensionManager : IExtensionManager
     {
         public bool WillBeValid = false;
         public bool IsValid(string fileName)

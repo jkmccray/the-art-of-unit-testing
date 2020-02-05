@@ -49,6 +49,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ExtensionManagerFactory.cs" />
     <Compile Include="FakeExtensionManager.cs" />
     <Compile Include="IExtensionManager.cs" />
     <Compile Include="LogAnalyzer.cs" />
